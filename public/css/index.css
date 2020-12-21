@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+    /* background-color: rgb(5, 99, 83); */
+}
+
+img {
+    float: right;
+    height: 500px;
+    width: 800px;
+    margin-top: 100px;
+}
+
+.banner {
+    margin: 0 auto;
+    height: 500px;
+    width: 1500px;
+}
+
+.banner-letter {
+    font-size: 40px;
+    color: rgb(59, 57, 57);
+    line-height: 1.4;
+    padding: 21px 0;
+    margin: 15px 0;
+    border-top: 1px solid rgb(59, 57, 57);
+    border-bottom: 1px solid rgb(59, 57, 57);
+    display: inline-block;
+    letter-spacing: -3px;
+    min-width: 350px;
+    /* font-weight: bolder; */
+    text-align: center;
+    margin-top: 250px;
+}

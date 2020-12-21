@@ -1,0 +1,19 @@
+{% extends 'layout.html' %}
+
+{% block css %}
+<link rel="stylesheet" href="/public/css/index.css">
+{% endblock %}
+
+{% block content %}
+<base href="/" />
+<!-- <h1>Index Page</h1>
+<p>Hi~ {{username}}!</p> -->
+<div class="banner">
+    <img src="/public/images/ocean.jpg">
+    <div class="banner-letter">
+        Welcome to Haeun's Office<br><br>
+        위 메뉴의 방명록 작성하기를 통해<br>
+        박명록을 남겨주세요!
+    </div>
+</div>
+{% endblock %}
