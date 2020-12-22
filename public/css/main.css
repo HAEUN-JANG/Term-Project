@@ -98,10 +98,11 @@ main {
 }
 
 footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
     background-color: #08192b;
-    height: 150px;
+    height: 200px;
     color: white;
+    text-align: center;
+    padding: 50px;
+    line-height: 40px;
+    font-weight: bold;
 }

@@ -6,7 +6,7 @@
 기존에는 서버를 사용하지 않아서 gitpage를 통해 페이지를 생성할 수 있었지만 이번에는 express 서버를 사용하면서 heroku 클라우드를 통해 서버가 포함된 웹페이지를 생성할 수 있었습니다.
 
 ### 2. 세부 적용 내용(HTML, CSS, Js, Express서버)
- - 방명록 남기기, 홈화면 이동하기, 서버구현하기 등
+ - 방명록 남기기, 방명록 페이지 이동하기, 홈화면 이동하기, 서버구현하기, 레이아웃 꾸미기, 등
 
  #### (1) HTML, CSS 사용한 웹페이지 디자인
         
@@ -15,6 +15,8 @@
         -<a href="/">를 이용해 상단의 HAEUN'S SPACE를 클릭하면 홈화면으로 돌아올 수 있도록 설정
 
         -index.css, main.css, write.css를 반복적으로 수정하며 세련된 웹사이트를 만듬
+
+        -index.html에서 사용한 중앙의 글자의 css는 index.css의 banner-letter 클래스에서 확인 가능
 
         -write.html과 write.css에서 ul과 li를 이용하여 보기좋게 방명록 박스를 꾸밈
 
