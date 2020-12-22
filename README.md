@@ -10,7 +10,7 @@
 
  #### (1) HTML, CSS 사용한 웹페이지 디자인
         
-        -layout.html을 이용해 기초 레이아웃을 잡아줌
+        -layout.html을 이용해 기초 레이아웃을 잡아줌(header와 메뉴, footer)
 
         -<a href="/">를 이용해 상단의 HAEUN'S SPACE를 클릭하면 홈화면으로 돌아올 수 있도록 설정
 
