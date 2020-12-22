@@ -6,6 +6,7 @@ const createError = require('http-errors');
 const pageRouter = require('./routes/page.router');
 
 const app = express();  // express Application 객체 생성
+const PORT = process.env.PORT
 nunjucks.configure('views', {
     express: app,
     watch: true
@@ -28,4 +29,4 @@ app.use((err, req, res, next) => {
 });
 // 루트 경로(/)로 GET 요청이 왔을 경우 응답
 
-app.listen(3000, () => console.log('Server running on 3000!'));
+app.listen(PORT, () => console.log('Server running on 3000!'));
