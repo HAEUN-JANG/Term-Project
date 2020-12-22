@@ -101,6 +101,7 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ddd;
+    background-color: #08192b;
     height: 150px;
+    color: white;
 }
